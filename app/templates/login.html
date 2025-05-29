@@ -9,21 +9,21 @@
   <body>
     <div class="header">
       <div class="header-left-most">
-        <img src="{{ url_for('static', filename='assets/CalendarBlank.png',) }}">
+        <img src="{{ url_for('static', filename='assets/CalendarBlank.png',) }}"class="CalendarBlank">
         <p>MON - FRI: 08:00 AM - 17:30 PM</p>
       </div>
       <div class="header-center">
-        <img src="{{ url_for('static', filename='assets/PhoneCall.png') }}">
+        <img src="{{ url_for('static', filename='assets/PhoneCall.png') }}"class="PhoneCall">
         <p>Hotline: (+632) 8-465-2400</p>
       </div>
       <div class="header-right-most">
         <p>Support: <span class="immigration-email">xinfo@immigration.gov.ph</span></p>
-        <img src="{{ url_for('static', filename='assets/PhilippineCircle.png') }}">
+        <img src="{{ url_for('static', filename='assets/PhilippineCircle.png') }}"class="PhilippineCircle">
       </div>
     </div>
     <div class="below-header">
       <div class="below-header-left">
-        <img src="{{ url_for('static', filename='assets/ImmigrationIcon.png') }}">
+        <img src="{{ url_for('static', filename='assets/ImmigrationIcon.png') }}"class="ImmigrationIcon">
         <div class="below-header-left-text">
           <p class="republic-philippines">Republic of the Philippines</p>
           <p class="bureau-immigration">Bureau of Immigration</p>
@@ -37,12 +37,12 @@
         <a href="#" class="eServices">eServices</a>
       </div>
       <div class="below-header-right">
-        <img src="{{ url_for('static', filename='assets/Phone.png') }}">
+        <img src="{{ url_for('static', filename='assets/Phone.png') }}"class="Phone">
         <p class="contact">Contact us</p>
       </div>
     </div>
     <div class="eServices-image">
-      <img src="{{ url_for('static', filename='assets/eServices.png') }}">
+      <img src="{{ url_for('static', filename='assets/eServices.png') }}"class="eServices-png">
       <div class="text-align">
         <p class="overlay-text-1">eServices</p>
         <a href="#" class="overlay-text-2">Home</a>
@@ -50,7 +50,7 @@
       </div>
     </div>
     <div class="IconBackground">
-      <img src="{{ url_for('static', filename='assets/IconBackground.png') }}">
+      <img src="{{ url_for('static', filename='assets/IconBackground.png') }}"class="IconBackground-png">
     </div>
     {% with messages = get_flashed_messages(with_categories=true) %}
       {% if messages %}
@@ -93,7 +93,7 @@
       </div>
     </div>
     <div class="footer">
-      <img src="{{ url_for('static', filename='assets/Footer.png') }}">
+      <img src="{{ url_for('static', filename='assets/Footer.png') }}"class="IconBackground-png">
     </div>
   </body>
 </html>
